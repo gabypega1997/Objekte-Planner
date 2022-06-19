@@ -1,3 +1,4 @@
+import react from 'react';
 import type { NextPage } from 'next'
 import { resolve } from 'path'
 import styles from '../styles/Home.module.css';
@@ -5,6 +6,8 @@ import * as XLSX from 'xlsx';
 import { promises } from 'stream';
 
 const Home: NextPage = () => {
+
+
   let objekte:any = {};
   const readExcel: any = (file:any) => {
     const promise = new Promise((resolv,reject) =>{
@@ -36,13 +39,14 @@ const Home: NextPage = () => {
   }
 
 
+
+
   return (
     <div className={styles.container}>
       <input type='file' onChange={(e:any)=>{
         const file = e.target.files[0]
         readExcel(file)
       }}/>
-      <h1>{objekte ? `Name: ${objekte[0].Ort}`: null}</h1>
     </div>
   )
 }
