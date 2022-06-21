@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
     promise.then((data:any) => {
       objekte = data;
-      console.log(objekte[0].Ort);
+      console.log(objekte[0]);
     })
   }
 

@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         
             promise.then((data:any) => {
             
-            console.log(data[0].Ort);
+            console.log(data[0]);
             })
         }
         
