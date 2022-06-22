@@ -20,6 +20,10 @@ const Home: NextPage = () => {
   const numberOfDays:any = Math.floor((currentdate - oneJan) / (24 * 60 * 60 * 1000));
   const result:string = Math.ceil( numberOfDays / 7) + "";
 
+  const getKeyByValue = (object:any, value:any) => {
+    return Object.keys(object).find(key => object[key] === value);
+  }
+
   // states
 
   const [week, setWeek] = useState(result);
@@ -35,15 +39,26 @@ const Home: NextPage = () => {
     setWeek(e.target.value);
   }
 
-  console.log(ort)
+  //button to set that object was worked and i add a "F" to the week to know that was finished
+
+  const workedObjekt = (Objekt:any) => {
+    console.log(getKeyByValue(Objekt,week));
+    console.log(Objekte[0].P1)
+    
+  }
+
   return (
     <div className={styles.container}>
       <label>CurrentWeek: {week}</label>
       <input type='number' placeholder={week} onChange={changeWeekNumber}/>
 
       {ort.map((Objekt) => {
-        return <p key={Objekt.WirtEinh}>{Objekt.Ort} {Objekt.PLZ} {Objekt.Straße}</p>
+        return <div key={Objekt.WirtEinh}>
+                  <p >{Objekt.Ort} {Objekt.PLZ} {Objekt.Straße}</p>
+                  <button onClick={() => workedObjekt(Objekt)}>Gemacht</button>
+                </div>
       })}
+
     </div>
   )
 }
