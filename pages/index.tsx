@@ -18,9 +18,9 @@ const Home: NextPage = () => {
   const currentdate:any = new Date();
   const oneJan:any = new Date(currentdate.getFullYear(),0,1);
   const numberOfDays:any = Math.floor((currentdate - oneJan) / (24 * 60 * 60 * 1000));
-  const result:any = Math.ceil( numberOfDays / 7);
+  const result:string = Math.ceil( numberOfDays / 7) + "";
 
-// states
+  // states
 
   const [week, setWeek] = useState(result);
 
@@ -30,10 +30,16 @@ const Home: NextPage = () => {
     return Object.values(Objekt).includes(week) ? Objekt : null; 
   });
 
+  // change week number 
+  const changeWeekNumber = (e:any) => {
+    setWeek(e.target.value);
+  }
+
   console.log(ort)
   return (
     <div className={styles.container}>
-      <input type='number'/>
+      <label>CurrentWeek: {week}</label>
+      <input type='number' placeholder={week} onChange={changeWeekNumber}/>
 
       {ort.map((Objekt) => {
         return <p key={Objekt.WirtEinh}>{Objekt.Ort} {Objekt.PLZ} {Objekt.Straße}</p>
