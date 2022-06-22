@@ -9,10 +9,10 @@
       "Straße": "Gmrk. Dombach, Flur 1, Flst. 62/2",
       "Reinigungsfläche/Menge": "1",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "232005",
@@ -23,10 +23,10 @@
       "Straße": "Gmrk. Schwickershausen, Flur 3, Flst. 48/4",
       "Reinigungsfläche/Menge": "1",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "229610",
@@ -37,10 +37,10 @@
       "Straße": "\"\"\"Gmrk. Kaltenholzhausen, Flur 19, Flst. \"\"\"\"3/1, 2/2\"\"\"\"\"\"\"",
       "Reinigungsfläche/Menge": "1",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "219840",
@@ -50,11 +50,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Wiesbaden|3|17 / 6",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
+      "P1": "15",
+      "P2": "23",
       "P3": "35",
-      "P4": "44"
+      "P4": "42"
     },
     {
       "WirtEinh": "13861",
@@ -62,13 +63,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Dostojewskistr. 15",
       "Reinigungsfläche/Menge": "1250.6",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "39",
-      "P6": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "46"
     },
     {
       "WirtEinh": "13864",
@@ -76,14 +79,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Konrad-Adenauer-Ring 33",
       "Reinigungsfläche/Menge": "29276",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "35",
-      "P6": "39",
-      "P7": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "33",
+      "P6": "37",
+      "P7": "42"
     },
     {
       "WirtEinh": "13862",
@@ -91,13 +95,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Washingtonstr. 19",
       "Reinigungsfläche/Menge": "3334",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "39",
-      "P6": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "46"
     },
     {
       "WirtEinh": "13872",
@@ -105,11 +111,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Kirchbornstr. 4",
       "Reinigungsfläche/Menge": "816.85",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
-      "P4": "44"
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "207175",
@@ -119,11 +126,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Bierstadt|53|425",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
-      "P4": "44"
+      "P2": "23",
+      "P3": "27",
+      "P5": "37",
+      "P6": "42"
     },
     {
       "WirtEinh": "13859",
@@ -131,13 +139,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Seerobenstr. 22",
       "Reinigungsfläche/Menge": "817",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "39",
-      "P6": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "46"
     },
     {
       "WirtEinh": "13869",
@@ -145,13 +155,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Goerdelerstr. 41",
       "Reinigungsfläche/Menge": "289760",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "21",
-      "P3": "26",
-      "P4": "30",
-      "P5": "38",
-      "P6": "43"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "46"
     },
     {
       "WirtEinh": "200821",
@@ -161,11 +173,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Frauenstein|2|360/15",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "229685",
@@ -175,11 +188,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Schierstein|19|200/6; 202/6",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "27",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "402440",
@@ -189,11 +203,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Schierstein|20|199/28",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "13865",
@@ -201,25 +216,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Bunsenstr. 4",
       "Reinigungsfläche/Menge": "1402",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "39",
-      "P6": "44"
-    },
-    {
-      "WirtEinh": "13833",
-      "PLZ": "65205",
-      "Ort": "Wiesbaden-Delkenheim",
-      "Straße": "Pinienweg 14",
-      "Reinigungsfläche/Menge": "2929",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
-      "P4": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "46"
     },
     {
       "WirtEinh": "212979",
@@ -229,11 +234,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Erbenheim|98|27/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
-      "P4": "44"
+      "P1": "15",
+      "P2": "23",
+      "P3": "31",
+      "P4": "40"
     },
     {
       "WirtEinh": "227897",
@@ -243,11 +249,25 @@
       "Ort": "Wiesbaden",
       "Straße": "Erbenheim|96|166/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
+      "P1": "17",
       "P2": "27",
       "P3": "35",
-      "P4": "44"
+      "P4": "42"
+    },
+    {
+      "WirtEinh": "13833",
+      "PLZ": "65205",
+      "Ort": "Wiesbaden-Delkenheim",
+      "Straße": "Pinienweg 14",
+      "Reinigungsfläche/Menge": "2929",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "13846",
@@ -255,13 +275,15 @@
       "Ort": "Wiesbaden",
       "Straße": "Lerchenweg 1",
       "Reinigungsfläche/Menge": "1275",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "39",
-      "P6": "44"
+      "P1": "15",
+      "P2": "19",
+      "P3": "23",
+      "P4": "27",
+      "P5": "35",
+      "P6": "42",
+      "P7": "47"
     },
     {
       "WirtEinh": "200828",
@@ -271,11 +293,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Rambach|32|3457",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
-      "P4": "44"
+      "P1": "15",
+      "P2": "23",
+      "P3": "32",
+      "P4": "41"
     },
     {
       "WirtEinh": "209176",
@@ -285,63 +308,12 @@
       "Ort": "Wiesbaden",
       "Straße": "Naurod|13|86",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
+      "P1": "15",
+      "P2": "23",
       "P3": "35",
-      "P4": "44"
-    },
-    {
-      "WirtEinh": "13853",
-      "PLZ": "65232",
-      "Ort": "Taunusstein-Bleidenstadt",
-      "Straße": "Hohlweg 11",
-      "Reinigungsfläche/Menge": "3246",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "21",
-      "P3": "26",
-      "P4": "30",
-      "P5": "38",
-      "P6": "43"
-    },
-    {
-      "WirtEinh": "13854",
-      "PLZ": "65232",
-      "Ort": "Taunusstein-Hahn",
-      "Straße": "Aarstr. 98",
-      "Reinigungsfläche/Menge": "1738",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
-    },
-    {
-      "WirtEinh": "13874",
-      "PLZ": "65232",
-      "Ort": "Taunusstein-Neuhof",
-      "Straße": "Gutenbergstr. 4",
-      "Reinigungsfläche/Menge": "764",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
-    },
-    {
-      "WirtEinh": "14360",
-      "PLZ": "65232",
-      "Ort": "Taunusstein-Wehen",
-      "Straße": "Aarstraße 220A",
-      "Reinigungsfläche/Menge": "362.5",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "21",
-      "P3": "26",
-      "P4": "30",
-      "P5": "38",
-      "P6": "43"
+      "P4": "42"
     },
     {
       "WirtEinh": "200825",
@@ -351,11 +323,12 @@
       "Ort": "Taunusstein",
       "Straße": "Hahn|10|33",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "200829",
@@ -365,11 +338,12 @@
       "Ort": "Taunusstein",
       "Straße": "Neuhof|47|30",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "200833",
@@ -379,11 +353,12 @@
       "Ort": "Taunusstein",
       "Straße": "Bleidenstadt|17|4 + 5/3",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
+      "P4": "41"
     },
     {
       "WirtEinh": "231227",
@@ -393,11 +368,12 @@
       "Ort": "Taunusstein",
       "Straße": "Orlen|3|1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "16",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "401534",
@@ -407,11 +383,68 @@
       "Ort": "Taunusstein",
       "Straße": "Wehen|12|7/10",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
+    },
+    {
+      "WirtEinh": "13853",
+      "PLZ": "65232",
+      "Ort": "Taunusstein-Bleidenstadt",
+      "Straße": "Hohlweg 11",
+      "Reinigungsfläche/Menge": "3246",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "15",
+      "P2": "21",
+      "P3": "27",
+      "P4": "35",
+      "P5": "39",
+      "P6": "42"
+    },
+    {
+      "WirtEinh": "13854",
+      "PLZ": "65232",
+      "Ort": "Taunusstein-Hahn",
+      "Straße": "Aarstr. 98",
+      "Reinigungsfläche/Menge": "1738",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
+    },
+    {
+      "WirtEinh": "13874",
+      "PLZ": "65232",
+      "Ort": "Taunusstein-Neuhof",
+      "Straße": "Gutenbergstr. 4",
+      "Reinigungsfläche/Menge": "764",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
+    },
+    {
+      "WirtEinh": "14360",
+      "PLZ": "65232",
+      "Ort": "Taunusstein-Wehen",
+      "Straße": "Aarstraße 220A",
+      "Reinigungsfläche/Menge": "362.5",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "20",
+      "P3": "27",
+      "P4": "32",
+      "P5": "37",
+      "P6": "43"
     },
     {
       "WirtEinh": "401499",
@@ -421,10 +454,11 @@
       "Ort": "Hochheim am Main",
       "Straße": "Massenheim|42|42",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -435,10 +469,11 @@
       "Ort": "Hochheim am Main",
       "Straße": "Hochheim|54|312/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -447,11 +482,12 @@
       "Ort": "Bad Schwalbach",
       "Straße": "Pestalozzistr.",
       "Reinigungsfläche/Menge": "763",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "20",
-      "P2": "29",
+      "P1": "14",
+      "P2": "21",
       "P3": "37",
-      "P4": "42"
+      "P4": "44"
     },
     {
       "WirtEinh": "200835",
@@ -461,11 +497,12 @@
       "Ort": "Bad Schwalbach",
       "Straße": "Adolfseck|4|18",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "401807",
@@ -475,11 +512,12 @@
       "Ort": "Bad Schwalbach",
       "Straße": "Bad-Schwalbach|72|2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "13837",
@@ -487,10 +525,11 @@
       "Ort": "Heidenrod",
       "Straße": "Reckenrother Weg 2",
       "Reinigungsfläche/Menge": "504",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "20",
-      "P2": "29",
-      "P3": "37",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -501,10 +540,11 @@
       "Ort": "Heidenrod",
       "Straße": "Laufenselden|46|41",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -515,11 +555,12 @@
       "Ort": "Heidenrod",
       "Straße": "Kemel|2|112/7",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "22",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "202419",
@@ -529,10 +570,11 @@
       "Ort": "Heidenrod",
       "Straße": "Zorn|5|14/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -541,10 +583,11 @@
       "Ort": "Aarbergen",
       "Straße": "Steinweg 1",
       "Reinigungsfläche/Menge": "931.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "20",
-      "P2": "29",
-      "P3": "37",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -555,10 +598,11 @@
       "Ort": "Aarbergen",
       "Straße": "Panrod|13|43/6",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -569,11 +613,12 @@
       "Ort": "Aarbergen",
       "Straße": "Kettenbach|2|49",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "200817",
@@ -583,10 +628,11 @@
       "Ort": "Hohenstein",
       "Straße": "Strinz Margarethä|51|18/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -597,11 +643,12 @@
       "Ort": "Hohenstein",
       "Straße": "Burg-Hohenstein|3|55",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "15",
+      "P2": "23",
+      "P3": "27",
+      "P4": "33"
     },
     {
       "WirtEinh": "200822",
@@ -611,10 +658,11 @@
       "Ort": "Hohenstein",
       "Straße": "Hennethal, Blatt 491|26|36/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
+      "P1": "15",
+      "P2": "23",
+      "P3": "35",
       "P4": "42"
     },
     {
@@ -623,11 +671,12 @@
       "Ort": "Eltville",
       "Straße": "Rheingauer Str. 50-52",
       "Reinigungsfläche/Menge": "677",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
+      "P1": "17",
+      "P2": "23",
+      "P3": "35",
+      "P4": "42"
     },
     {
       "WirtEinh": "13848",
@@ -635,11 +684,13 @@
       "Ort": "Oestrich-Winkel",
       "Straße": "Römerstr. 1",
       "Reinigungsfläche/Menge": "555",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
+      "P1": "17",
+      "P2": "22",
+      "P3": "31",
+      "P4": "40",
+      "P5": "48"
     },
     {
       "WirtEinh": "14330",
@@ -647,11 +698,13 @@
       "Ort": "Rüdesheim",
       "Straße": "Kleine Niederstrasse",
       "Reinigungsfläche/Menge": "299.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
+      "P1": "17",
+      "P2": "22",
+      "P3": "31",
+      "P4": "40",
+      "P5": "48"
     },
     {
       "WirtEinh": "200943",
@@ -661,11 +714,12 @@
       "Ort": "Rüdesheim am Rhein",
       "Straße": "Rüdesheim am Rhein|27|116/12",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "200961",
@@ -675,11 +729,12 @@
       "Ort": "Rüdesheim am Rhein",
       "Straße": "Eibingen|6|69",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "13851",
@@ -687,26 +742,29 @@
       "Ort": "Schlangenbad",
       "Straße": "Nelkenstr. 18",
       "Reinigungsfläche/Menge": "922",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
+      "P1": "17",
+      "P2": "22",
+      "P3": "31",
+      "P4": "40",
+      "P5": "48"
     },
     {
       "WirtEinh": "14328",
       "PLZ": "65388",
       "Ort": "Schlangenbad",
       "Straße": "Rheingauer Str. 5",
-      "Reinigungsfläche/Menge": "25",
+      "Reinigungsfläche/Menge": "25.0",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "21",
+      "P2": "22",
       "P3": "26",
-      "P4": "30",
-      "P5": "34",
-      "P6": "38",
-      "P7": "43"
+      "P4": "31",
+      "P5": "35",
+      "P6": "43",
+      "P7": "47"
     },
     {
       "WirtEinh": "200830",
@@ -716,11 +774,12 @@
       "Ort": "Schlangenbad",
       "Straße": "Obergladbach|3|229",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "200834",
@@ -730,11 +789,12 @@
       "Ort": "Schlangenbad",
       "Straße": "Schlangenbad|10|4/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "13842",
@@ -742,11 +802,13 @@
       "Ort": "Lorch",
       "Straße": "Große Au 23",
       "Reinigungsfläche/Menge": "789.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "21",
-      "P2": "30",
-      "P3": "38",
-      "P4": "43"
+      "P1": "17",
+      "P2": "22",
+      "P3": "31",
+      "P4": "40",
+      "P5": "48"
     },
     {
       "WirtEinh": "200831",
@@ -756,11 +818,12 @@
       "Ort": "Lorch",
       "Straße": "Lorch|52|7/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "40",
+      "P4": "44"
     },
     {
       "WirtEinh": "216846",
@@ -770,11 +833,12 @@
       "Ort": "Lorch",
       "Straße": "Espenschied|1|70/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
       "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P3": "31",
+      "P4": "44"
     },
     {
       "WirtEinh": "13857",
@@ -782,13 +846,14 @@
       "Ort": "Walluf-Niederwalluf",
       "Straße": "Hohlweg 7",
       "Reinigungsfläche/Menge": "1711",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "21",
+      "P2": "22",
       "P3": "26",
-      "P4": "30",
-      "P5": "38",
-      "P6": "43"
+      "P4": "31",
+      "P5": "35",
+      "P6": "44"
     },
     {
       "WirtEinh": "200819",
@@ -798,11 +863,12 @@
       "Ort": "Kiedrich",
       "Straße": "Kiedrich|25|24/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "217233",
@@ -812,11 +878,12 @@
       "Ort": "Kiedrich",
       "Straße": "Kiedrich|8|503/248 504/249 507/249",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "17",
-      "P2": "26",
-      "P3": "34",
-      "P4": "43"
+      "P2": "31",
+      "P3": "36",
+      "P4": "40"
     },
     {
       "WirtEinh": "13850",
@@ -824,13 +891,14 @@
       "Ort": "Rüsselsheim",
       "Straße": "Bensheimer Str. 20",
       "Reinigungsfläche/Menge": "3781",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
+      "P1": "15",
+      "P2": "21",
       "P3": "27",
-      "P4": "31",
+      "P4": "35",
       "P5": "39",
-      "P6": "44"
+      "P6": "42"
     },
     {
       "WirtEinh": "13875",
@@ -838,10 +906,11 @@
       "Ort": "Rüsselsheim",
       "Straße": "Brunnenstr. 81",
       "Reinigungsfläche/Menge": "1250",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -850,11 +919,12 @@
       "Ort": "Rüsselsheim",
       "Straße": "Silberstr. 23",
       "Reinigungsfläche/Menge": "9086",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "31",
-      "P4": "35",
+      "P1": "14",
+      "P2": "18",
+      "P3": "22",
+      "P4": "38",
       "P5": "44"
     },
     {
@@ -863,13 +933,14 @@
       "Ort": "Rüsselsheim",
       "Straße": "Schlesienstr. 1b",
       "Reinigungsfläche/Menge": "1275",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
+      "P1": "15",
+      "P2": "21",
       "P3": "27",
-      "P4": "31",
+      "P4": "35",
       "P5": "39",
-      "P6": "44"
+      "P6": "42"
     },
     {
       "WirtEinh": "13834",
@@ -877,13 +948,14 @@
       "Ort": "Flörsheim",
       "Straße": "Werner-von-Siemens-Str. 9",
       "Reinigungsfläche/Menge": "1203",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
+      "P1": "15",
+      "P2": "21",
       "P3": "27",
-      "P4": "31",
+      "P4": "35",
       "P5": "39",
-      "P6": "44"
+      "P6": "42"
     },
     {
       "WirtEinh": "13835",
@@ -891,13 +963,14 @@
       "Ort": "Flörsheim",
       "Straße": "Lessingstr. 15-17",
       "Reinigungsfläche/Menge": "1191",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
+      "P1": "15",
+      "P2": "21",
       "P3": "27",
-      "P4": "31",
+      "P4": "35",
       "P5": "39",
-      "P6": "44"
+      "P6": "42"
     },
     {
       "WirtEinh": "401498",
@@ -907,10 +980,11 @@
       "Ort": "Flörsheim am Main",
       "Straße": "Wicker|30|15/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -919,10 +993,11 @@
       "Ort": "Ginsheim-Gustavsburg",
       "Straße": "Philipp-Reis-Str. 6",
       "Reinigungsfläche/Menge": "1372.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -931,13 +1006,14 @@
       "Ort": "Ginsheim-Gustavsburg",
       "Straße": "Beethovenstr. 24",
       "Reinigungsfläche/Menge": "221",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "22",
-      "P3": "27",
-      "P4": "31",
-      "P5": "35",
-      "P6": "39",
+      "P1": "14",
+      "P2": "18",
+      "P3": "21",
+      "P4": "25",
+      "P5": "28",
+      "P6": "37",
       "P7": "44"
     },
     {
@@ -946,10 +1022,11 @@
       "Ort": "Trebur",
       "Straße": "Weserstr. 14",
       "Reinigungsfläche/Menge": "859.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
     },
     {
@@ -960,11 +1037,27 @@
       "Ort": "Raunheim",
       "Straße": "Raunheim|9|5/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "35",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
       "P4": "44"
+    },
+    {
+      "WirtEinh": "231848",
+      "X": "5,026,972",
+      "y": "819,528",
+      "PLZ": "65510",
+      "Ort": "Hünstetten",
+      "Straße": "Bechtheim|6|46",
+      "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "16",
+      "P2": "23",
+      "P3": "32",
+      "P4": "40"
     },
     {
       "WirtEinh": "14362",
@@ -972,12 +1065,13 @@
       "Ort": "Idstein",
       "Straße": "Wagenerstr. 8",
       "Reinigungsfläche/Menge": "567.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "20",
-      "P3": "25",
-      "P4": "29",
-      "P5": "37",
+      "P1": "15",
+      "P2": "21",
+      "P3": "27",
+      "P4": "35",
+      "P5": "39",
       "P6": "42"
     },
     {
@@ -988,11 +1082,12 @@
       "Ort": "Idstein",
       "Straße": "Idstein|41|24/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "200915",
@@ -1002,25 +1097,12 @@
       "Ort": "Idstein",
       "Straße": "Niederauroff|17|72",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
-    },
-    {
-      "WirtEinh": "231848",
-      "X": "5,026,972",
-      "y": "819,528",
-      "PLZ": "65510",
-      "Ort": "Hünstetten",
-      "Straße": "Bechtheim|6|46",
-      "Reinigungsfläche/Menge": "1",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "401796",
@@ -1030,11 +1112,12 @@
       "Ort": "Idstein",
       "Straße": "Ehrenbach|18|10/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "14361",
@@ -1042,11 +1125,12 @@
       "Ort": "Bad Camberg",
       "Straße": "Eichendorffstr. 18",
       "Reinigungsfläche/Menge": "1050",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "20",
-      "P2": "29",
+      "P1": "14",
+      "P2": "21",
       "P3": "37",
-      "P4": "42"
+      "P4": "44"
     },
     {
       "WirtEinh": "200635",
@@ -1056,23 +1140,12 @@
       "Ort": "Bad Camberg",
       "Straße": "Camberg|8|29",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
-    },
-    {
-      "WirtEinh": "14041",
-      "PLZ": "65529",
-      "Ort": "Waldems-Steinfischbach",
-      "Straße": "Am Rotfeld 2",
-      "Reinigungsfläche/Menge": "1122",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "20",
-      "P2": "29",
+      "P1": "14",
+      "P2": "21",
       "P3": "37",
-      "P4": "42"
+      "P4": "44"
     },
     {
       "WirtEinh": "200871",
@@ -1082,11 +1155,12 @@
       "Ort": "Waldems",
       "Straße": "Waldems-Steinfischbach|10|84",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "401764",
@@ -1096,23 +1170,25 @@
       "Ort": "Waldems",
       "Straße": "Esch|5|9",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "16",
-      "P2": "25",
-      "P3": "33",
-      "P4": "42"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
-      "WirtEinh": "13568",
-      "PLZ": "65549",
-      "Ort": "Limburg-Blumenrod",
-      "Straße": "Zeppelinstr. 7",
-      "Reinigungsfläche/Menge": "1287",
+      "WirtEinh": "14041",
+      "PLZ": "65529",
+      "Ort": "Waldems-Steinfischbach",
+      "Straße": "Am Rotfeld 2",
+      "Reinigungsfläche/Menge": "1122",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "222235",
@@ -1122,11 +1198,25 @@
       "Ort": "Limburg",
       "Straße": "Limburg|33|32/8",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
       "P4": "41"
+    },
+    {
+      "WirtEinh": "13568",
+      "PLZ": "65549",
+      "Ort": "Limburg-Blumenrod",
+      "Straße": "Zeppelinstr. 7",
+      "Reinigungsfläche/Menge": "1287",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "13521",
@@ -1134,11 +1224,12 @@
       "Ort": "Limburg-Eschhofen",
       "Straße": "In der Seit 1",
       "Reinigungsfläche/Menge": "1259",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "200733",
@@ -1148,10 +1239,11 @@
       "Ort": "Limburg",
       "Straße": "Staffel|19|21/4",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
       "P4": "41"
     },
     {
@@ -1160,11 +1252,12 @@
       "Ort": "Hadamar",
       "Straße": "Hospitalstr. 1a",
       "Reinigungsfläche/Menge": "46874",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "13586",
@@ -1172,25 +1265,12 @@
       "Ort": "Runkel",
       "Straße": "Schadecker Straße 26",
       "Reinigungsfläche/Menge": "2506",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
-    },
-    {
-      "WirtEinh": "226281",
-      "X": "5,043,778",
-      "y": "820,639",
-      "PLZ": "65594",
-      "Ort": "Runkel",
-      "Straße": "Runkel|11|2/3",
-      "Reinigungsfläche/Menge": "1",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "201010",
@@ -1207,16 +1287,19 @@
       "P4": "41"
     },
     {
-      "WirtEinh": "13549",
-      "PLZ": "65597",
-      "Ort": "Hünfelden-Dauborn",
-      "Straße": "Neckarstr. 1",
-      "Reinigungsfläche/Menge": "1996",
+      "WirtEinh": "226281",
+      "X": "5,043,778",
+      "y": "820,639",
+      "PLZ": "65594",
+      "Ort": "Runkel",
+      "Straße": "Runkel|11|2/3",
+      "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "14",
+      "P2": "21",
+      "P3": "37",
+      "P4": "44"
     },
     {
       "WirtEinh": "401533",
@@ -1226,11 +1309,12 @@
       "Ort": "Hünfelden",
       "Straße": "Kirberg|22|74/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "401634",
@@ -1240,11 +1324,12 @@
       "Ort": "Hünfelden",
       "Straße": "Nauheim|22|9/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "402063",
@@ -1254,23 +1339,25 @@
       "Ort": "Hünfelden",
       "Straße": "Nauheim|27|13",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
-      "WirtEinh": "14189",
-      "PLZ": "65599",
-      "Ort": "Dornburg-Frickhofen",
-      "Straße": "Bachstr. 10",
-      "Reinigungsfläche/Menge": "753.5",
+      "WirtEinh": "13549",
+      "PLZ": "65597",
+      "Ort": "Hünfelden-Dauborn",
+      "Straße": "Neckarstr. 1",
+      "Reinigungsfläche/Menge": "1996",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "200741",
@@ -1280,11 +1367,25 @@
       "Ort": "Dornburg",
       "Straße": "Frickhofen|30|140/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
+    },
+    {
+      "WirtEinh": "14189",
+      "PLZ": "65599",
+      "Ort": "Dornburg-Frickhofen",
+      "Straße": "Bachstr. 10",
+      "Reinigungsfläche/Menge": "753.5",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "13527",
@@ -1292,23 +1393,12 @@
       "Ort": "Elz",
       "Straße": "Am Fleckenberg 2",
       "Reinigungsfläche/Menge": "1133",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
-    },
-    {
-      "WirtEinh": "13639",
-      "PLZ": "65606",
-      "Ort": "Villmar-Aumenau",
-      "Straße": "Die grünen Stücker 15",
-      "Reinigungsfläche/Menge": "425",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "200735",
@@ -1318,10 +1408,11 @@
       "Ort": "Villmar",
       "Straße": "Villmar|3|356/1",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
       "P4": "41"
     },
     {
@@ -1332,11 +1423,25 @@
       "Ort": "Villmar",
       "Straße": "Aumenau|18|27/26",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
+      "P4": "41"
+    },
+    {
+      "WirtEinh": "13639",
+      "PLZ": "65606",
+      "Ort": "Villmar-Aumenau",
+      "Straße": "Die grünen Stücker 15",
+      "Reinigungsfläche/Menge": "425",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "200745",
@@ -1346,10 +1451,11 @@
       "Ort": "Brechen",
       "Straße": "Oberbrechen|8|143/1 (ATR) + 142 (Kabine)",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
       "P4": "41"
     },
     {
@@ -1360,22 +1466,11 @@
       "Ort": "Brechen",
       "Straße": "Werschau|4|18/3",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
-    },
-    {
-      "WirtEinh": "13632",
-      "PLZ": "65614",
-      "Ort": "Beselich-Obertiefenbach",
-      "Straße": "Fliederweg 4",
-      "Reinigungsfläche/Menge": "298",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
       "P4": "41"
     },
     {
@@ -1386,25 +1481,25 @@
       "Ort": "Beselich",
       "Straße": "Heckholzhausen|4|6",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
-      "WirtEinh": "13578",
-      "PLZ": "65618",
-      "Ort": "Selters-Niederselters",
-      "Straße": "Haintchener Str. 26",
-      "Reinigungsfläche/Menge": "2098",
+      "WirtEinh": "13632",
+      "PLZ": "65614",
+      "Ort": "Beselich-Obertiefenbach",
+      "Straße": "Fliederweg 4",
+      "Reinigungsfläche/Menge": "298",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "19",
-      "P3": "24",
-      "P4": "28",
-      "P5": "36",
-      "P6": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "200715",
@@ -1414,11 +1509,12 @@
       "Ort": "Selters (Taunus)",
       "Straße": "Eisenbach|1|193/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "200738",
@@ -1428,11 +1524,12 @@
       "Ort": "Selters (Taunus)",
       "Straße": "Münster|11|184",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "212598",
@@ -1442,11 +1539,12 @@
       "Ort": "Selters (Taunus)",
       "Straße": "Haintchen|2|17",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "220844",
@@ -1456,11 +1554,27 @@
       "Ort": "Selters (Taunus)",
       "Straße": "Niederselters|9|77/2",
       "Reinigungsfläche/Menge": "1",
+      "Flächeneinheit": "LE",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "21",
+      "P3": "31",
+      "P4": "41"
+    },
+    {
+      "WirtEinh": "13578",
+      "PLZ": "65618",
+      "Ort": "Selters-Niederselters",
+      "Straße": "Haintchener Str. 26",
+      "Reinigungsfläche/Menge": "2098",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
       "P1": "15",
-      "P2": "24",
-      "P3": "32",
-      "P4": "41"
+      "P2": "21",
+      "P3": "27",
+      "P4": "35",
+      "P5": "39",
+      "P6": "42"
     },
     {
       "WirtEinh": "13562",
@@ -1468,11 +1582,12 @@
       "Ort": "Waldbrunn-Lahr",
       "Straße": "Hintermeilinger Weg 1",
       "Reinigungsfläche/Menge": "812",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "13615",
@@ -1480,24 +1595,12 @@
       "Ort": "Elbtal-Elbgrund",
       "Straße": "Dorfstück 10",
       "Reinigungsfläche/Menge": "648",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "19",
-      "P2": "28",
-      "P3": "36",
-      "P4": "41"
-    },
-    {
-      "WirtEinh": "13856",
-      "PLZ": "65719",
-      "Ort": "Hofheim-Wallau",
-      "Straße": "Rheingauer Weg 23",
-      "Reinigungsfläche/Menge": "1673",
-      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "18",
-      "P2": "27",
-      "P3": "31",
-      "P4": "35",
-      "P5": "44"
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
+      "P4": "44"
     },
     {
       "WirtEinh": "14021",
@@ -1505,11 +1608,26 @@
       "Ort": "Hofheim-Marxheim",
       "Straße": "Mainzer Str. 48",
       "Reinigungsfläche/Menge": "318.5",
+      "Flächeneinheit": "M2",
       "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
-      "P1": "22",
-      "P2": "31",
-      "P3": "39",
+      "P1": "15",
+      "P2": "22",
+      "P3": "38",
       "P4": "44"
+    },
+    {
+      "WirtEinh": "13856",
+      "PLZ": "65719",
+      "Ort": "Hofheim-Wallau",
+      "Straße": "Rheingauer Weg 23",
+      "Reinigungsfläche/Menge": "1673",
+      "Flächeneinheit": "M2",
+      "Name der Gärtner": "Azakli Temel/Pescar Gabriel",
+      "P1": "14",
+      "P2": "18",
+      "P3": "22",
+      "P4": "38",
+      "P5": "44"
     }
   ]
 }
