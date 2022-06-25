@@ -3,7 +3,7 @@ import { firestore } from "./firebase";
 const getProjects = async () => {
     const snapshot = await firestore.collection("Projects").get();
 
-    const projects = snapshot.docs.map((doc:any) => ({
+    const projects = snapshot.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),
     }));
@@ -11,7 +11,7 @@ const getProjects = async () => {
     return projects;
 };
 
-const getProject = async (id:any) => {
+const getProject = async (id) => {
     const doc = await firestore.collection("Projects").doc(id).get();
 
     const user = {
