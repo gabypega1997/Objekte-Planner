@@ -6,6 +6,10 @@ import { promises } from 'stream';
 import {Objekte} from '../utils/localization.json';
 import { useState } from 'react';
 
+// Import Component
+import Start from '../components/Home/Start';
+import { ST } from 'next/dist/shared/lib/utils';
+
 
 
 
@@ -58,6 +62,7 @@ const Home: NextPage = () => {
                   <button onClick={() => workedObjekt(Objekt)}>Gemacht</button>
                 </div>
       })}
+      <Start/>
 
     </div>
   )
