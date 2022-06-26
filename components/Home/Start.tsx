@@ -1,5 +1,5 @@
 import { firestore, initializeApp } from 'firebase-admin';
-import { collection, doc, onSnapshot, orderBy, query, QuerySnapshot } from 'firebase/firestore';
+import { addDoc, collection, doc, onSnapshot, orderBy, query, QuerySnapshot } from 'firebase/firestore';
 import React from 'react'
 import { useState,useEffect } from 'react';
 import { db } from '../../utils/firebase';
@@ -53,15 +53,25 @@ const Start = () => {
       setWeek(e.target.value);
     }
   
-    //button to set that object was worked and i add a "F" to the week to know that was finished
+    //button to set a list of finished places
+
+    // state finished
+
+    const [finishedObjects, setFinishedObjects] = useState(Array);
+
+    useEffect(()=>{
+        const collectionRef = collection(db,"FinishedObjects");
+        const docRef = addDoc(collectionRef, {finishedObjects});
+
+        console.log(`Object with name is added successfuly! `);
+    },[finishedObjects])
+
+
+
   
     const  workedObjekt = async (object:any) => {
-      console.log(getKeyByValue(object,Number(week))); 
-      
-      const docRef  = doc(db, 'Objects', object.id);
-      
-      
-
+      console.log(object.id)
+      setFinishedObjects((initailstate: any)=>{initailstate.push(object.id)});
       
     }
 
