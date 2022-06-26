@@ -3,7 +3,6 @@ import type { NextPage } from 'next'
 import { resolve } from 'path'
 import styles from '../styles/Home.module.css';
 import { promises } from 'stream';
-import {Objekte} from '../utils/localization.json';
 import { useState } from 'react';
 
 // Import Component
@@ -34,9 +33,9 @@ const Home: NextPage = () => {
 
 
 // loop throw the Objekts
-  const ort = Objekte.filter((Objekt) => {
-    return Object.values(Objekt).includes(week) ? Objekt : null; 
-  });
+  // const ort = Objekte.filter((Objekt) => {
+  //   return Object.values(Objekt).includes(week) ? Objekt : null; 
+  // });
 
   // change week number 
   const changeWeekNumber = (e:any) => {

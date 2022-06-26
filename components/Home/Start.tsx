@@ -11,17 +11,29 @@ const Start = () => {
   
   //States for object import 
   const [objects,setObjects] = useState(Array);
+  const [finishedObjects, setFinishedObjects] = useState(Array);
   
   // read firebase conlection Objescts
   useEffect(()=>{
-    const collectionRef = collection(db,'Objects');
+    const collectionRefObj = collection(db,'Objects');
     
-    const q = query(collectionRef, orderBy("Ort"));
+    const qObj = query(collectionRefObj, orderBy("PLZ"));
 
-    const data = onSnapshot(q, (querySnapshot)=> {
+    const dataObj = onSnapshot(qObj, (querySnapshot)=> {
       setObjects(querySnapshot.docs.map(doc => ({...doc.data(), id: doc.id})))
     });
-    return data;
+
+
+    
+    const collectionRefFin = collection(db,'FinishedObjects');
+
+    const qFinObj = query(collectionRefFin, orderBy("time"));
+
+    const dataFinObj = onSnapshot(qFinObj,(querySnapshot) => {
+      setFinishedObjects(querySnapshot.docs.map(doc => ({ ...doc.data()})))
+    });
+    
+    return dataFinObj;
   },[]);
 
 
@@ -49,6 +61,7 @@ const Start = () => {
 
   
     // change week number 
+    
     const changeWeekNumber = (e:any) => {
       setWeek(e.target.value);
     }
@@ -57,26 +70,31 @@ const Start = () => {
 
     // state finished
 
-    const [finishedObjects, setFinishedObjects] = useState(Array);
-
-    useEffect(()=>{
-        const collectionRef = collection(db,"FinishedObjects");
-        const docRef = addDoc(collectionRef, {finishedObjects});
-
-        console.log(`Object with name is added successfuly! `);
-    },[finishedObjects])
 
 
 
-  
+
+// finished Object function
     const  workedObjekt = async (object:any) => {
-      console.log(object.id)
-      setFinishedObjects((initailstate: any)=>{initailstate.push(object.id)});
+      const {id} = object;
+      // console.log(id, week, currentdate.toLocaleDateString())
+      const time = currentdate.toLocaleDateString();
+      // setFinishedObjects({id, week, time});
+
+      const collectionRef = collection(db,"FinishedObjects");
+      const docRef = await addDoc(collectionRef, {id, time, week});
+
+      console.log(`Object with ${object.Ort} is added successfuly! `);
+
+
       
     }
 
+//finished object function to give all 
 
 
+
+console.log(finishedObjects);
 
 
   return (
@@ -96,6 +114,17 @@ const Start = () => {
           
           
         })}
+
+
+        <h1>Finished Objects </h1>
+        {
+          finishedObjects.map((object:any) => {
+            return (
+            <div key={object.id}>
+              <p>{object.id}</p>
+            </div>)
+          })
+        }
     </div>
   )
 }
