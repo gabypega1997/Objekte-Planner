@@ -56,7 +56,14 @@ const Start = () => {
   // loop throw the Objekts and chose the right one for the week what i put in
 
     const objectsWeek = objects.filter((object:any) => {
-      return Object.values(object).includes(Number(week)) ? object : null; 
+      let booleanFinObj:boolean = true;
+      finishedObjects.forEach((finobject:any) => {
+        if(Object.values(finobject).includes(object.id)){
+          booleanFinObj = false;
+        }
+      }
+      );
+      return Object.values(object).includes(Number(week)) && booleanFinObj ? object : null; 
     });
 
   
