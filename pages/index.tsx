@@ -8,7 +8,6 @@ import { useState } from 'react';
 
 // Import Component
 import Start from '../components/Home/Start';
-import { ST } from 'next/dist/shared/lib/utils';
 import Xlsx from '../components/Home/Xlsx';
 
 
@@ -47,14 +46,12 @@ const Home: NextPage = () => {
   //button to set that object was worked and i add a "F" to the week to know that was finished
 
   const workedObjekt = (Objekt:any) => {
-    console.log(getKeyByValue(Objekt,week));
-    console.log(Objekte[0].P1)
-    
+    console.log(getKeyByValue(Objekt,week));    
   }
 
   return (
     <div className={styles.container}>
-      <label>CurrentWeek: {week}</label>
+      {/* <label>CurrentWeek: {week}</label>
       <input type='number' placeholder={week} onChange={changeWeekNumber}/>
 
       {ort.map((Objekt) => {
@@ -62,7 +59,7 @@ const Home: NextPage = () => {
                   <p >{Objekt.Ort} {Objekt.PLZ} {Objekt.Straße}</p>
                   <button onClick={() => workedObjekt(Objekt)}>Gemacht</button>
                 </div>
-      })}
+      })} */}
       <Start/>
       <Xlsx></Xlsx>
 
