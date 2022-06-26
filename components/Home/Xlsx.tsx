@@ -34,7 +34,7 @@ const Xlsx: React.FC = () => {
                     const collectionRef = collection(db,"Objects");
                     const docRef = await addDoc(collectionRef, {...obj});
 
-                    console.log(`Object with name is added successfuly!`);
+                    console.log(`Object with name is added successfuly! `);
                 })
             })
         }
