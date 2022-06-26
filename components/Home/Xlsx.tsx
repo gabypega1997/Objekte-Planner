@@ -1,8 +1,10 @@
 import React from "react";
 import * as XLSX from 'xlsx';
+import { db } from "../../utils/firebase";
+import { addDoc, collection } from "firebase/firestore";
 
 
-const Home: React.FC = () => {
+const Xlsx: React.FC = () => {
         const readExcel: any = (file:any) => {
             const promise = new Promise((resolv,reject) =>{
             const fileReader = new FileReader();
@@ -28,7 +30,12 @@ const Home: React.FC = () => {
         
             promise.then((data:any) => {
             
-            console.log(data[0]);
+                data.forEach(async function(obj: any){
+                    const collectionRef = collection(db,"Objects");
+                    const docRef = await addDoc(collectionRef, {...obj});
+
+                    console.log(`Object with name is added successfuly!`);
+                })
             })
         }
         
@@ -46,4 +53,4 @@ const Home: React.FC = () => {
 }
 
 
-export default Home;
+export default Xlsx;

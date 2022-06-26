@@ -9,6 +9,7 @@ import { useState } from 'react';
 // Import Component
 import Start from '../components/Home/Start';
 import { ST } from 'next/dist/shared/lib/utils';
+import Xlsx from '../components/Home/Xlsx';
 
 
 
@@ -63,6 +64,7 @@ const Home: NextPage = () => {
                 </div>
       })}
       <Start/>
+      <Xlsx></Xlsx>
 
     </div>
   )
