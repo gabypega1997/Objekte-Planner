@@ -69,7 +69,8 @@ const Start = () => {
   
     // change week number 
     
-    const changeWeekNumber = (e:any) => {
+    const changeWeekNumber = (e:any) => { 
+      
       setWeek(e.target.value);
     }
   
