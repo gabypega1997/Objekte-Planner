@@ -70,7 +70,7 @@ const Start = () => {
     // change week number 
     
     const changeWeekNumber = (e:any) => { 
-      
+
       setWeek(e.target.value);
     }
   
@@ -129,8 +129,15 @@ console.log(finishedObjects);
           finishedObjects.map((object:any) => {
             return (
             <div key={object.id}>
+
               <p>{object.id}</p>
-            </div>)
+              {objects.map((objecte:any) => {
+                console.log(Object.values(objecte).includes(object.id))
+                Object.values(objecte).includes(object.id) ? `<p key=${object.id}>${objecte.Ort}</p>`: null
+              })}
+
+            </div>
+            )
           })
         }
     </div>
