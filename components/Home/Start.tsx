@@ -130,10 +130,8 @@ console.log(finishedObjects);
             return (
             <div key={object.id}>
 
-              <p>{object.id}</p>
               {objects.map((objecte:any) => {
-                console.log(Object.values(objecte).includes(object.id))
-                Object.values(objecte).includes(object.id) ? `<p key=${object.id}>${objecte.Ort}</p>`: null
+                return Object.values(objecte).includes(object.id) ? <p key={object.id}>{objecte.Ort}</p>: null
               })}
 
             </div>
