@@ -106,24 +106,35 @@ const Start = () => {
 
 // Finished objects delete
 
-const  deleteFinishedObject = async (id:string)=> {
-  console.log(id);
-  const docRef = doc(db, 'FinishedObjects',id);
-  await deleteDoc(docRef);
-}
+  const  deleteFinishedObject = async (id:string)=> {
+    console.log(id);
+    const docRef = doc(db, 'FinishedObjects',id);
+    await deleteDoc(docRef);
+  }
 
 
 //View buttons functions ==>
-
+  // WeeekPeriod View function
+  const weekOrPeriodView = () =>{
+        weekOrPeriod === "week" ? setWeekOrPeriod("period") : setWeekOrPeriod('week');
+    }
+  // Inwork or finished objects
+  const inWorkOrFinishedView = () => {
+      inWorkOrFinished === "inwork"? setInWorkOrFinished('finished'): setInWorkOrFinished('inwork');
+  }
 
   return (
     <div>
       <label>CurrentWeek: {week} </label>
       <input type='number' placeholder={week} onChange={changeWeekNumber}/>
 
+{/* Hier we have objects */}
 
-
-        {objectsWeek.map((object:any) => {
+{inWorkOrFinished === 'inwork' ? <h1>in Arbeit</h1> : <h1>Gemachte</h1> }
+{inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Gemachte</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> }
+        {
+          inWorkOrFinished === "inwork"? 
+        objectsWeek.map((object:any) => {
           // console.log(Object.values(object).includes(15))
             return (
             <div key={object.id}>
@@ -134,11 +145,10 @@ const  deleteFinishedObject = async (id:string)=> {
             )
           
           
-        })}
-
-
-        <h1>Finished Objects </h1>
-        {
+        })
+          
+        :
+          
           finishedObjects.map((object:any) => {
             return (
             <div key={object.idObj}>
@@ -151,7 +161,8 @@ const  deleteFinishedObject = async (id:string)=> {
             </div>
             )
           })
-        }
+                
+      }
     </div>
   )
 }
