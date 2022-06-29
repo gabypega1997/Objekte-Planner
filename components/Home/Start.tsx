@@ -98,12 +98,11 @@ const Start = () => {
       
     }
 
-//finished object function to give all 
+// Finished objects delete
 
-
-
-console.log(finishedObjects);
-
+const  deleteFinishedObject = ()=> {
+  
+}
 
   return (
     <div>
@@ -134,7 +133,7 @@ console.log(finishedObjects);
                 return Object.values(objecte).includes(object.id) ? <p key={object.id}>{objecte.Ort}</p>: null
               })}
 
-              <button>Nichtgemacht</button>
+              <button onClick = {}>Nichtgemacht</button>
             </div>
             )
           })
