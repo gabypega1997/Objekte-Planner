@@ -1,5 +1,5 @@
 import { firestore, initializeApp } from 'firebase-admin';
-import { addDoc, collection, doc, onSnapshot, orderBy, query, QuerySnapshot } from 'firebase/firestore';
+import { addDoc, collection, deleteDoc, doc, onSnapshot, orderBy, query, QuerySnapshot } from 'firebase/firestore';
 import React from 'react'
 import { useState,useEffect } from 'react';
 import { db } from '../../utils/firebase';
@@ -30,7 +30,7 @@ const Start = () => {
     const qFinObj = query(collectionRefFin, orderBy("time"));
 
     const dataFinObj = onSnapshot(qFinObj,(querySnapshot) => {
-      setFinishedObjects(querySnapshot.docs.map(doc => ({ ...doc.data()})))
+      setFinishedObjects(querySnapshot.docs.map(doc => ({ ...doc.data(),id: doc.id})))
     });
     
     return dataFinObj;
@@ -90,7 +90,7 @@ const Start = () => {
       // setFinishedObjects({id, week, time});
 
       const collectionRef = collection(db,"FinishedObjects");
-      const docRef = await addDoc(collectionRef, {id, time, week});
+      const docRef = await addDoc(collectionRef, {idObj:id, time, week});
 
       console.log(`Object with ${object.Ort} is added successfuly! `);
 
@@ -100,8 +100,10 @@ const Start = () => {
 
 // Finished objects delete
 
-const  deleteFinishedObject = ()=> {
-  
+const  deleteFinishedObject = async (id:string)=> {
+  console.log(id);
+  const docRef = doc(db, 'FinishedObjects',id);
+  await deleteDoc(docRef);
 }
 
   return (
@@ -127,13 +129,13 @@ const  deleteFinishedObject = ()=> {
         {
           finishedObjects.map((object:any) => {
             return (
-            <div key={object.id}>
+            <div key={object.idObj}>
 
               {objects.map((objecte:any) => {
-                return Object.values(objecte).includes(object.id) ? <p key={object.id}>{objecte.Ort}</p>: null
+                return Object.values(objecte).includes(object.idObj) ? <p key={object.id}>{objecte.Ort}</p>: null
               })}
 
-              <button onClick = {}>Nichtgemacht</button>
+              <button onClick={()=>{deleteFinishedObject(object.id)}}>Nichtgemacht</button>
             </div>
             )
           })
