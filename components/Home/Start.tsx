@@ -12,6 +12,12 @@ const Start = () => {
   //States for object import 
   const [objects,setObjects] = useState(Array);
   const [finishedObjects, setFinishedObjects] = useState(Array);
+
+  // View State for buttons
+  const [weekOrPeriod, setWeekOrPeriod] = useState("week");
+  const [inWorkOrFinished, setInWorkOrFinished] = useState("inwork")
+
+
   
   // read firebase conlection Objescts
   useEffect(()=>{
@@ -106,10 +112,16 @@ const  deleteFinishedObject = async (id:string)=> {
   await deleteDoc(docRef);
 }
 
+
+//View buttons functions ==>
+
+
   return (
     <div>
       <label>CurrentWeek: {week} </label>
       <input type='number' placeholder={week} onChange={changeWeekNumber}/>
+
+
 
         {objectsWeek.map((object:any) => {
           // console.log(Object.values(object).includes(15))
