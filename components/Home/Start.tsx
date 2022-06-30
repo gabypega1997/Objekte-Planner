@@ -59,6 +59,7 @@ const Start = () => {
       return Object.keys(object).find(key => object[key] === value);
     }
 
+
   // loop throw the Objekts and chose the right one for the week what i put in
 
     const objectsWeek = objects.filter((object:any) => {
@@ -121,6 +122,24 @@ const Start = () => {
   // Inwork or finished objects
   const inWorkOrFinishedView = () => {
       inWorkOrFinished === "inwork"? setInWorkOrFinished('finished'): setInWorkOrFinished('inwork');
+  }
+
+
+  // Function to return week or period objects 
+
+  const objectsWeekOrPeriod = (type:string,value:string|number) => {
+    let objectReturn:any;
+    objects.filter((object:any) => {
+      let booleanFinObj:boolean = true;
+      finishedObjects.forEach((finobject:any) => {
+        if(Object.values(finobject).includes(object.id)){
+          booleanFinObj = false;
+        }
+      }
+      );
+     return Object.values(object).includes(Number(week)) && booleanFinObj ? object : null; 
+    });
+
   }
 
   return (
