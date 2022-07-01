@@ -53,6 +53,7 @@ const Start = () => {
     // state week
   
     const [week, setWeek] = useState(result);
+    const [period, setPeriod] = useState('P1')
   
   
     const getKeyByValue = (object:any, value:any) => {
@@ -117,6 +118,7 @@ const Start = () => {
 //View buttons functions ==>
   // WeeekPeriod View function
   const weekOrPeriodView = () =>{
+    console.log("sd")
         weekOrPeriod === "week" ? setWeekOrPeriod("period") : setWeekOrPeriod('week');
     }
   // Inwork or finished objects
@@ -127,7 +129,7 @@ const Start = () => {
 
   // Function to return week or period objects 
 
-  const objectsWeekOrPeriod = (type:string,value:string|number) => {
+  const objectsWeekOrPeriod = (type:string,value:string) => {
     let objectReturn:any;
     objects.filter((object:any) => {
       let booleanFinObj:boolean = true;
@@ -138,7 +140,10 @@ const Start = () => {
       }
       );
       return booleanFinObj ? type === 'week' ? 
-        Object.values(object).includes(Number(week)) : Object.keys(objects) 
+          Object.values(object).includes(Number(value)) ? object : null 
+          :
+          Object.keys(objects).includes(value) ? object : null 
+        : null;
 
     });
 
@@ -146,8 +151,21 @@ const Start = () => {
 
   return (
     <div>
-      <label>CurrentWeek: {week} </label>
-      <input type='number' placeholder={week} onChange={changeWeekNumber}/>
+      <button onClick={weekOrPeriodView}>{weekOrPeriod === 'week' ? "Period": "Week" }</button>
+      {weekOrPeriod === 'week' ? 
+      <div>
+        <label>CurrentWeek: {week} </label>
+        <input type='number' placeholder={week} onChange={changeWeekNumber}/>
+      </div>
+      
+      :
+        <div>
+          <label>Current Period: {period}</label>         
+        </div>
+    }
+      
+
+      
 
 {/* Hier we have objects */}
 
@@ -185,8 +203,11 @@ const Start = () => {
                 
       }
 
-      <h1>Periods</h1>
-      { }
+
+      {
+        objectsWeekOrPeriod(weekOrPeriod,)
+      }
+      
     </div>
   )
 }
