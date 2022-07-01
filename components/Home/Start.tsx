@@ -137,7 +137,9 @@ const Start = () => {
         }
       }
       );
-     return Object.values(object).includes(Number(week)) && booleanFinObj ? object : null; 
+      return booleanFinObj ? type === 'week' ? 
+        Object.values(object).includes(Number(week)) : Object.keys(objects) 
+
     });
 
   }
@@ -182,6 +184,9 @@ const Start = () => {
           })
                 
       }
+
+      <h1>Periods</h1>
+      { }
     </div>
   )
 }
