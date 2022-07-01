@@ -130,8 +130,7 @@ const Start = () => {
   // Function to return week or period objects 
 
   const objectsWeekOrPeriod = (type:string,value:string) => {
-    let objectReturn:any;
-    objects.filter((object:any) => {
+    const objectsReturned = objects.filter((object:any) => {
       let booleanFinObj:boolean = true;
       finishedObjects.forEach((finobject:any) => {
         if(Object.values(finobject).includes(object.id)){
@@ -139,19 +138,25 @@ const Start = () => {
         }
       }
       );
-      return booleanFinObj ? type === 'week' ? 
+      return  booleanFinObj ? type === 'week' ? 
           Object.values(object).includes(Number(value)) ? object : null 
           :
-          Object.keys(objects).includes(value) ? object : null 
+          Object.keys(object).includes(value) ? object : null 
         : null;
-
+      
     });
 
+    return objectsReturned
   }
 
   return (
+
     <div>
+
+
       <button onClick={weekOrPeriodView}>{weekOrPeriod === 'week' ? "Period": "Week" }</button>
+     
+     
       {weekOrPeriod === 'week' ? 
       <div>
         <label>CurrentWeek: {week} </label>
@@ -205,7 +210,7 @@ const Start = () => {
 
 
       {
-        objectsWeekOrPeriod(weekOrPeriod,)
+        objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => <p key={object.id}>{object.Ort}</p>)
       }
       
     </div>
