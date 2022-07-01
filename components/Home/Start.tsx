@@ -210,7 +210,13 @@ const Start = () => {
 
 
       {
-        objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => <p key={object.id}>{object.Ort}</p>)
+        objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => (
+        <div key={object.id}>
+          <p>{object.Ort}</p>
+          <button onClick={() => workedObjekt(object)}>Gemacht</button>
+
+        </div>
+        ))
       }
       
     </div>
