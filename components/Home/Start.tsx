@@ -149,6 +149,24 @@ const Start = () => {
     return objectsReturned
   }
 
+
+  //Function for periods
+
+  const counterPeriodsAndWeek = (type:string) => {
+        let responseArray = [];
+        if(type === 'week'){
+          for(let i = 14 ; i <= 48; i++ ){
+            responseArray.push(i);
+          }
+    } else if(type === 'period'){
+      for(let i = 1; i <= 7; i++){
+        responseArray.push(i);
+      }
+    }
+
+    return responseArray;
+  }
+
   return (
 
     <div>
@@ -165,7 +183,8 @@ const Start = () => {
       
       :
         <div>
-          <label>Current Period: {period}</label>         
+          <label>Current Period: {period}</label>
+                 
         </div>
     }
       
@@ -178,18 +197,26 @@ const Start = () => {
 {inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Gemachte</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> }
         {
           inWorkOrFinished === "inwork"? 
-        objectsWeek.map((object:any) => {
-          // console.log(Object.values(object).includes(15))
-            return (
-            <div key={object.id}>
-              <p >{object.Ort}</p>
-              <button onClick={() => workedObjekt(object)}>Gemacht</button>
-            </div>
+        // objectsWeek.map((object:any) => {
+        //   // console.log(Object.values(object).includes(15))
+        //     return (
+        //     <div key={object.id}>
+        //       <p >{object.Ort}</p>
+        //       <button onClick={() => workedObjekt(object)}>Gemacht</button>
+        //     </div>
             
-            )
+        //     )
           
           
-        })
+        // })
+
+          objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => (
+            <div key={object.id}>
+              <p>{object.Ort}</p>
+              <button onClick={() => workedObjekt(object)}>Gemacht</button>
+    
+            </div>
+            ))
           
         :
           
@@ -208,8 +235,8 @@ const Start = () => {
                 
       }
 
-
-      {
+      {/* Period Search */}
+      {/* {
         objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => (
         <div key={object.id}>
           <p>{object.Ort}</p>
@@ -217,7 +244,7 @@ const Start = () => {
 
         </div>
         ))
-      }
+      } */}
       
     </div>
   )
