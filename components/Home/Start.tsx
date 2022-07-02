@@ -177,11 +177,19 @@ const Start = () => {
   return (
 
     <div>
+      {weekOrPeriod === 'week' ?
+      <div key={week}>
+        <button disabled> Woche</button>
+        <button onClick={weekOrPeriodView}>Period</button> 
+      </div> 
+      :
+      <div>
+        <button onClick={weekOrPeriodView}> Woche</button>
+        <button disabled>Period</button> 
+      </div>
 
-
-      <button onClick={weekOrPeriodView}>{weekOrPeriod === 'week' ? "Period": "Week" }</button>
-     
-     
+      
+    }    
       {weekOrPeriod === 'week' ? 
       <div>
         <label>CurrentWeek: {week} </label>
@@ -201,8 +209,8 @@ const Start = () => {
 
 {/* Hier we have objects */}
 
-{inWorkOrFinished === 'inwork' ? <h1>in Arbeit</h1> : <h1>Gemachte</h1> }
-{inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Gemachte</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> }
+{inWorkOrFinished === 'inwork' ? <h1>in Arbeit</h1> : <h1>Fertig</h1> }
+{inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Fertig</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> }
         {
           inWorkOrFinished === "inwork"? 
         // objectsWeek.map((object:any) => {
