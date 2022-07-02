@@ -118,7 +118,6 @@ const Start = () => {
 //View buttons functions ==>
   // WeeekPeriod View function
   const weekOrPeriodView = () =>{
-    console.log("sd")
         weekOrPeriod === "week" ? setWeekOrPeriod("period") : setWeekOrPeriod('week');
     }
   // Inwork or finished objects
@@ -167,6 +166,14 @@ const Start = () => {
     return responseArray;
   }
 
+
+
+  // Function to read weeks and periods from buttons
+
+  const changeWeeksOrPeriods = (type:string,val:any) => {
+    type === 'week' ? setWeek(val) : setPeriod("P"+ val);
+  }
+
   return (
 
     <div>
@@ -178,14 +185,15 @@ const Start = () => {
       {weekOrPeriod === 'week' ? 
       <div>
         <label>CurrentWeek: {week} </label>
-        <input type='number' placeholder={week} onChange={changeWeekNumber}/>
       </div>
       
       :
         <div>
-          <label>Current Period: {period}</label>
-                 
+          <label>Current Period: {period}</label>                
         </div>
+    }
+    {
+    counterPeriodsAndWeek(weekOrPeriod).map((val) => <button key={val} onClick = {() => {changeWeeksOrPeriods(weekOrPeriod, val)}}>{val}</button>)
     }
       
 
