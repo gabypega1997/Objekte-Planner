@@ -60,7 +60,6 @@ const Home: NextPage = () => {
                 </div>
       })} */}
       <Start/>
-      <Xlsx></Xlsx>
 
     </div>
   )
