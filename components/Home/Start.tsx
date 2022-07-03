@@ -241,7 +241,7 @@ const Start = () => {
             <div key={object.idObj}>
 
               {objects.map((objecte:any) => {
-                return Object.values(objecte).includes(object.idObj) ? <p key={object.id}>{objecte.Ort}</p>: null
+                return Object.values(objecte).includes(object.idObj)  ? <p key={object.id}>{objecte.Ort}</p>: null
               })}
 
               <button onClick={()=>{deleteFinishedObject(object.id)}}>Nichtgemacht</button>
