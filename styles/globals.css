@@ -18,5 +18,10 @@ a {
 button{
   padding: 5px 10px;
   margin:5px;
-  color: greenyellow;
+  background-color: rgb(115, 150, 64);
+  border: none;
+}
+
+button:hover{
+  transform: scale(1.1);
 }
