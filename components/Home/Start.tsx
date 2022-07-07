@@ -93,12 +93,18 @@ const Start = () => {
 // finished Object function
     const  workedObjekt = async (object:any) => {
       const {id} = object;
+      let periodFin;
       // console.log(id, week, currentdate.toLocaleDateString())
       const time = currentdate.toLocaleDateString();
       // setFinishedObjects({id, week, time});
+      if(weekOrPeriod === 'week') {
+        periodFin = Object.keys(object).filter((key) => object[key] === week ?  key : null);
+      }else if(weekOrPeriod === 'period'){
+        periodFin = period;
+      }
 
       const collectionRef = collection(db,"FinishedObjects");
-      const docRef = await addDoc(collectionRef, {idObj:id, time, week});
+      const docRef = await addDoc(collectionRef, {idObj:id, time, periodFin, week});
 
       console.log(`Object with ${object.Ort} is added successfuly! `);
 
@@ -177,6 +183,8 @@ const Start = () => {
   return (
 
     <div>
+
+
       {weekOrPeriod === 'week' ?
       <div key={week}>
         <button disabled> Woche</button>
@@ -209,8 +217,8 @@ const Start = () => {
 
 {/* Hier we have objects */}
 
-{inWorkOrFinished === 'inwork' ? <h1>in Arbeit</h1> : <h1>Fertig</h1> }
-{inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Fertig</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> }
+{/* {inWorkOrFinished === 'inwork' ? <h1>in Arbeit</h1> : <h1>Fertig</h1> } */}
+{/* {inWorkOrFinished === 'inwork' ? <button onClick={inWorkOrFinishedView}>Fertig</button> : <button onClick={inWorkOrFinishedView}>in Arbeit</button> } */}
         {
           inWorkOrFinished === "inwork"? 
         // objectsWeek.map((object:any) => {
@@ -229,7 +237,7 @@ const Start = () => {
           objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => (
             <div key={object.id}>
               <p>{object.Ort} {object.Straße}</p>
-              <button onClick={() => workedObjekt(object)}>Gemacht</button>
+              {/* <button onClick={() => workedObjekt(object)}>Gemacht</button> */}
     
             </div>
             ))
@@ -244,7 +252,7 @@ const Start = () => {
                 return Object.values(objecte).includes(object.idObj)  ? <p key={object.id}>{objecte.Ort} {objecte.Straße}</p>: null
               })}
 
-              <button onClick={()=>{deleteFinishedObject(object.id)}}>Nichtgemacht</button>
+              {/* <button onClick={()=>{deleteFinishedObject(object.id)}}>Nichtgemacht</button> */}
             </div>
             )
           })
