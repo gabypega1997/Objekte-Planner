@@ -1,6 +1,6 @@
 //Function for periods
 
-import { addDoc, collection, deleteDoc, doc } from "firebase/firestore";
+import { addDoc, collection, deleteDoc, doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "./firebase";
 import { get } from "http";
 
@@ -44,7 +44,7 @@ export const currentDate = () => {
 
 // Function for get key by value
 
-export const getKeyByValue = (object: any, value: any):string => {
+export const getKeyByValue = (object: any, value: any): string => {
     return Object.keys(object).find((key) => object[key] === value)!;
 };
 
@@ -71,30 +71,44 @@ export const objectsWeek = (
 // finished Object function
 export const workedObjekt = async (
     object: any,
+    finishedObjects: any,
     weekOrPeriod: string,
     weekOrPeriodValue: string
 ) => {
     const { id } = object;
 
-    const  periodFin:string = weekOrPeriod === "period" ? weekOrPeriodValue : getKeyByValue(object, weekOrPeriodValue);
+    const periodFin: string =
+        weekOrPeriod === "period"
+            ? weekOrPeriodValue
+            : getKeyByValue(object, weekOrPeriodValue);
 
-    const  weekFin: string = weekOrPeriod === "week" ? weekOrPeriodValue : object[weekOrPeriodValue];
-
+    const weekFin: string =
+        weekOrPeriod === "week" ? weekOrPeriodValue : object[weekOrPeriodValue];
 
     const curtWeek = currentWeek();
     const time = new Date().toLocaleDateString();
     const collectionRef = collection(db, "FinishedObjects");
 
-    
-
-    const docRef = await addDoc(collectionRef, {
-        idObj: id,
-        time,
-        periodFin: {
-            [periodFin]: weekFin,
-        },
-        curtWeek,
-    });
+    const itemExists = await checkIfDocumentExists(id);
+    console.log(itemExists);
+    if (itemExists) {
+        const docRef = doc(db, "FinishedObjects", id);
+        await updateDoc(docRef, {
+            periodFin: {
+                [periodFin]: weekFin,
+            },
+            curtWeek,
+        });
+    } else {
+        const docRef = await addDoc(collectionRef, {
+            id,
+            time,
+            periodFin: {
+                [periodFin]: weekFin,
+            },
+            curtWeek,
+        });
+    }
 
     console.log(`Object with ${object.Ort} is added successfuly! `);
 };
@@ -135,4 +149,23 @@ export const objectsWeekOrPeriod = (
     });
 
     return objectsReturned;
+};
+
+export const checkIfDocumentExists = async (id: string) => {
+    const docRef = doc(db, "FinishedObjects", id);
+
+    try {
+        const docSnapshot = await getDoc(docRef);
+
+        if (docSnapshot.exists()) {
+            console.log(`Document with ID ${id} exists.`);
+            return true;
+        } else {
+            console.log(`Document with ID ${id} does not exist.`);
+            return false;
+        }
+    } catch (error) {
+        console.error("Error checking if document exists:", error);
+        return false;
+    }
 };

@@ -184,6 +184,7 @@ const Start = () => {
                         onClick={() =>
                             workedObjekt(
                                 object,
+                                finishedObjects,
                                 weekOrPeriod,
                                 weekOrPeriod === week ? week : period
                             )
