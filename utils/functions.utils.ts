@@ -32,7 +32,12 @@ export const currentWeek = () => {
 };
 
 export const currentDate = () => {
-    const currentdate: any = new Date();
+    const currentdate: any = new Date()
+        .toISOString()
+        .slice(0, 10)
+        .split("-")
+        .reverse()
+        .join("/");
     return currentdate;
 };
 
@@ -62,38 +67,72 @@ export const objectsWeek = (
     });
 };
 
+// finished Object function
+export const workedObjekt = async (
+    object: any,
+    weekOrPeriod: string,
+    weekOrPeriodValue: string
+) => {
+    const { id } = object;
+    let periodFin;
+    const week = currentWeek();
+    // console.log(id, week, currentdate.toLocaleDateString())
+    const time = new Date().toLocaleDateString();
+    // setFinishedObjects({id, week, time});
+    if (weekOrPeriod === "week") {
+        periodFin = Object.keys(object).filter((key) =>
+            object[key] === weekOrPeriodValue ? key : null
+        );
+    } else if (weekOrPeriod === "period") {
+        periodFin = weekOrPeriodValue;
+    }
 
+    const collectionRef = collection(db, "FinishedObjects");
+    const docRef = await addDoc(collectionRef, {
+        idObj: id,
+        time,
+        periodFin,
+        week,
 
-    // finished Object function
-    const workedObjekt = async (object: any, weekOrPeriod:string, week?:number, period?:string) => {
-        const { id } = object;
-        let periodFin;
-        // console.log(id, week, currentdate.toLocaleDateString())
-        const time = currentDate().toLocaleDateString();
-        // setFinishedObjects({id, week, time});
-        if (weekOrPeriod === "week") {
-            periodFin = Object.keys(object).filter((key) =>
-                object[key] === week ? key : null
-            );
-        } else if (weekOrPeriod === "period") {
-            periodFin = period;
-        }
+    });
 
-        const collectionRef = collection(db, "FinishedObjects");
-        const docRef = await addDoc(collectionRef, {
-            idObj: id,
-            time,
-            periodFin,
-            week,
+    console.log(`Object with ${object.Ort} is added successfuly! `);
+};
+
+// Finished objects delete
+
+const deleteFinishedObject = async (id: string) => {
+    console.log(id);
+    const docRef = doc(db, "FinishedObjects", id);
+    await deleteDoc(docRef);
+};
+
+// Function to return week or period objects
+
+export const objectsWeekOrPeriod = (
+    type: string,
+    value: string,
+    objects: Object[],
+    finishedObjects: Object[]
+) => {
+    const objectsReturned = objects.filter((object: any) => {
+        let booleanFinObj: boolean = true;
+
+        finishedObjects.forEach((finobject: any) => {
+            if (Object.values(finobject).includes(object.id)) {
+                booleanFinObj = false;
+            }
         });
+        return booleanFinObj
+            ? type === "week"
+                ? Object.values(object).includes(Number(value))
+                    ? object
+                    : null
+                : Object.keys(object).includes(value)
+                ? object
+                : null
+            : null;
+    });
 
-        console.log(`Object with ${object.Ort} is added successfuly! `);
-    };
-
-    // Finished objects delete
-
-    const deleteFinishedObject = async (id: string) => {
-        console.log(id);
-        const docRef = doc(db, "FinishedObjects", id);
-        await deleteDoc(docRef);
-    };
+    return objectsReturned;
+};

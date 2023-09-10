@@ -1,5 +1,10 @@
+import { currentDate } from "../utils/functions.utils";
+
 const NavbarComponent = ()=> {
-    return (<h1>ff</h1>)
+    return (<div>
+        <div>
+            Today: {currentDate()}</div>
+    </div>)
 }
 
 export default NavbarComponent;

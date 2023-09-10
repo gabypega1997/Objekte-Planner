@@ -1,14 +1,4 @@
-import { firestore, initializeApp } from "firebase-admin";
-import {
-    addDoc,
-    collection,
-    deleteDoc,
-    doc,
-    onSnapshot,
-    orderBy,
-    query,
-    QuerySnapshot,
-} from "firebase/firestore";
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import React from "react";
 import { useState, useEffect } from "react";
 import { db } from "../utils/firebase";
@@ -16,7 +6,10 @@ import {
     counterPeriodsAndWeek,
     currentWeek,
     currentDate,
+    objectsWeekOrPeriod,
+    workedObjekt,
 } from "../utils/functions.utils";
+import NavbarComponent from "./navbar.component";
 
 // Firestore connection
 
@@ -58,6 +51,8 @@ const Start = () => {
 
         return dataFinObj;
     }, []);
+    console.log(finishedObjects);
+    console.log(objects);
     // change week number
 
     const changeWeekNumber = (e: any) => {
@@ -77,39 +72,16 @@ const Start = () => {
             : setInWorkOrFinished("inwork");
     };
 
-    // Function to return week or period objects
-
-    const objectsWeekOrPeriod = (type: string, value: string) => {
-        const objectsReturned = objects.filter((object: any) => {
-            let booleanFinObj: boolean = true;
-            finishedObjects.forEach((finobject: any) => {
-                if (Object.values(finobject).includes(object.id)) {
-                    booleanFinObj = false;
-                }
-            });
-            return booleanFinObj
-                ? type === "week"
-                    ? Object.values(object).includes(Number(value))
-                        ? object
-                        : null
-                    : Object.keys(object).includes(value)
-                    ? object
-                    : null
-                : null;
-        });
-
-        return objectsReturned;
-    };
-
     // Function to read weeks and periods from buttons
 
     const changeWeeksOrPeriods = (type: string, val: any) => {
         type === "week" ? setWeek(val) : setPeriod("P" + val);
     };
 
-    
     return (
         <div>
+            <NavbarComponent />
+
             {weekOrPeriod === "week" ? (
                 <div key={week}>
                     <button disabled> Woche</button>
@@ -130,6 +102,7 @@ const Start = () => {
                     <label>Current Period: {period}</label>
                 </div>
             )}
+
             {counterPeriodsAndWeek(weekOrPeriod).map((val) => (
                 <button
                     key={val}
@@ -189,6 +162,7 @@ const Start = () => {
               })}
 
               {/* <button onClick={()=>{deleteFinishedObject(object.id)}}>Nichtgemacht</button> */}
+
             {/* </div> */}
             {/* )
           })
@@ -197,15 +171,28 @@ const Start = () => {
 
             {/* Period Search */}
 
-            {/* {
-        objectsWeekOrPeriod(weekOrPeriod,weekOrPeriod === 'week' ? week : period ).map((object:any) => (
-        <div key={object.id}>
-          <p>{object.Ort}</p>
-          <button onClick={() => workedObjekt(object)}>Gemacht</button>
+            {objectsWeekOrPeriod(
+                weekOrPeriod,
+                weekOrPeriod === "week" ? week : period,
+                objects as Object[],
+                finishedObjects as Object[]
+            ).map((object: any) => (
+                <div key={object.id}>
+                    <p>{object.Ort}</p>
 
-        </div>
-        ))
-      } */}
+                    <button
+                        onClick={() =>
+                            workedObjekt(
+                                object,
+                                weekOrPeriod,
+                                weekOrPeriod === week ? week : period
+                            )
+                        }
+                    >
+                        Gemacht
+                    </button>
+                </div>
+            ))}
         </div>
     );
 };
