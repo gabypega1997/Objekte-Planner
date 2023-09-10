@@ -6,13 +6,8 @@ import { promises } from 'stream';
 import { useState } from 'react';
 
 // Import Component
-import Start from '../components/Home/Start';
-import Xlsx from '../components/Home/Xlsx';
-
-
-
-
-
+import Start from '../components/Start';
+import Xlsx from '../components/xlsx-uploader.component';
 
 const Home: NextPage = () => {
 
