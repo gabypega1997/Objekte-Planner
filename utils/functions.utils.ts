@@ -2,6 +2,7 @@
 
 import { addDoc, collection, deleteDoc, doc } from "firebase/firestore";
 import { db } from "./firebase";
+import { get } from "http";
 
 export const counterPeriodsAndWeek = (type: string) => {
     let responseArray = [];
@@ -43,8 +44,8 @@ export const currentDate = () => {
 
 // Function for get key by value
 
-export const getKeyByValue = (object: any, value: any) => {
-    return Object.keys(object).find((key) => object[key] === value);
+export const getKeyByValue = (object: any, value: any):string => {
+    return Object.keys(object).find((key) => object[key] === value)!;
 };
 
 // loop throw the Objekts and chose the right one for the week what i put in
@@ -74,26 +75,25 @@ export const workedObjekt = async (
     weekOrPeriodValue: string
 ) => {
     const { id } = object;
-    let periodFin;
-    const week = currentWeek();
-    // console.log(id, week, currentdate.toLocaleDateString())
-    const time = new Date().toLocaleDateString();
-    // setFinishedObjects({id, week, time});
-    if (weekOrPeriod === "week") {
-        periodFin = Object.keys(object).filter((key) =>
-            object[key] === weekOrPeriodValue ? key : null
-        );
-    } else if (weekOrPeriod === "period") {
-        periodFin = weekOrPeriodValue;
-    }
 
+    const  periodFin:string = weekOrPeriod === "period" ? weekOrPeriodValue : getKeyByValue(object, weekOrPeriodValue);
+
+    const  weekFin: string = weekOrPeriod === "week" ? weekOrPeriodValue : object[weekOrPeriodValue];
+
+
+    const curtWeek = currentWeek();
+    const time = new Date().toLocaleDateString();
     const collectionRef = collection(db, "FinishedObjects");
+
+    
+
     const docRef = await addDoc(collectionRef, {
         idObj: id,
         time,
-        periodFin,
-        week,
-
+        periodFin: {
+            [periodFin]: weekFin,
+        },
+        curtWeek,
     });
 
     console.log(`Object with ${object.Ort} is added successfuly! `);
